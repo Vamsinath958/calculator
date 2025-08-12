@@ -1,0 +1,40 @@
+        body{
+            background-image: url(download.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        h1{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container{
+            background-color:rgba(17, 16, 16, 0.607);
+            width:100% ;
+            max-width: 650px;
+            text-align: center;
+            margin-top: 90px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+       .b{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:15px;
+       }
+
+       .in{
+       width: 100%;
+       margin-bottom: 20px;
+       }
+
+       .b button{
+        border-radius: 10px;
+        background-color:transparent;
+        color: white;
+        padding: 5px;
+       }
